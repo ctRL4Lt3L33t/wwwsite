@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>...uh 0h</title>
+    <style>
+        @keyframes flashBackground {
+            0% { background-color: #000; }
+            25% { background-color: #003300; }
+            50% { background-color: #000; }
+            75% { background-color: #006600; }
+            100% { background-color: #000; }
+        }
+        body {
+            background-color: #000;
+            color: #0f0;
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            animation: flashBackground 2s infinite;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            animation: flashBackground 2s infinite;
+        }
+        .gif-container {
+            position: relative;
+            overflow: hidden;
+            border: 2px solid #0f0;
+            box-shadow: 0 0 10px #0f0;
+            animation: pulse 1s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(0.8); }
+            50% { transform: scale(1); }
+            100% { transform: scale(0.8); }
+        }
+        .gif-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        h1 {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+            text-shadow: 0 0 10px #0f0;
+        }
+        .hacker-text {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            font-size: 12px;
+            color: #0f0;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="hacker-text">[SYSTEM COMPROMISED]</div>
+    <h1>3L33T M0D3 4CT1V4T3D</h1>
+    <div class="container">
+        <div class="gif-container">
+            <img src="awyeeeborger1.gif" alt="H4CK3D">
+        </div>
+        <div class="gif-container">
+            <img src="awyeeeborger2.gif" alt="H4CK3D">
+        </div>
+        <div class="gif-container">
+            <img src="awyeeeborger3.gif" alt="H4CK3D">
+        </div>
+        <div class="gif-container">
+            <img src="awyeeeborger4.gif" alt="H4CK3D">
+        </div>
+    </div>
+    <h1>C0URT3SY 0F TH3 SH@D0W T1D3</h1>
+</body>
+</html> 
